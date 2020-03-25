@@ -4,6 +4,9 @@ server:
     context-path: /
  
 spring:
+  sleuth:
+    sampler:
+      probability: 0.1
   cloud: 
     config: 
       override-none: true
