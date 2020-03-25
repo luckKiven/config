@@ -40,7 +40,7 @@ zuul:
     repository: REDIS #浣跨敤redis瀛樺偍锛屼竴瀹氳澶у啓锛�
     policies:
       item-service: #閽堝涓婇潰閭ｄ釜鏈嶅姟鐨勯檺娴�
-        limit: 2 #鍛ㄦ湡澶氬皯涓姹�
+        limit: 30 #鍛ㄦ湡澶氬皯涓姹�
         quota: 30#鍛ㄦ湡
         refreshInterval: 60 #鍒锋柊鏃堕棿绐楀彛鐨勬椂闂达紝榛樿鍊� (绉�)
         type: ORIGIN #杩欓噷涓�瀹氳澶у啓,绫诲瀷璇存槑锛歎RL閫氳繃璇锋眰璺緞鍖哄垎锛孫RIGIN閫氳繃瀹㈡埛绔疘P鍦板潃鍖哄垎锛孶SER鏄�氳繃鐧诲綍鐢ㄦ埛鍚嶈繘琛屽尯鍒嗭紝涔熷寘鎷尶鍚嶇敤鎴�
